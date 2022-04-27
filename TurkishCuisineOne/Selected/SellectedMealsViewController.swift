@@ -62,7 +62,7 @@ class SellectedMealsViewController: UIViewController, UICollectionViewDelegateFl
         topView.snp.makeConstraints({ make in
             make.top.equalToSuperview()
             make.left.right.equalToSuperview()
-            make.height.equalTo(60)
+            make.height.equalTo(67)
         })
         
         topView.addSubview(menuBtn)
