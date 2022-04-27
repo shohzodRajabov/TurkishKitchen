@@ -58,11 +58,11 @@ class SellectedMealsViewController: UIViewController, UICollectionViewDelegateFl
     
     func createTopView(){
         view.addSubview(topView)
-        topView.backgroundColor = UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
+        topView.backgroundColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00)
         topView.snp.makeConstraints({ make in
             make.top.equalToSuperview()
             make.left.right.equalToSuperview()
-            make.height.equalTo(80)
+            make.height.equalTo(60)
         })
         
         topView.addSubview(menuBtn)
@@ -75,7 +75,7 @@ class SellectedMealsViewController: UIViewController, UICollectionViewDelegateFl
         menuBtn.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(20)
-            make.height.width.equalTo(25)
+            make.height.width.equalTo(21)
         })
         
         topView.addSubview(titleLbl)
@@ -83,7 +83,7 @@ class SellectedMealsViewController: UIViewController, UICollectionViewDelegateFl
         titleLbl.textColor = .white
         titleLbl.textAlignment = .center
         titleLbl.text = "Избранное"
-        titleLbl.font = UIFont.systemFont(ofSize: 22, weight: .bold)
+        titleLbl.font = UIFont.systemFont(ofSize: 19, weight: .bold)
         titleLbl.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(menuBtn.snp.right)

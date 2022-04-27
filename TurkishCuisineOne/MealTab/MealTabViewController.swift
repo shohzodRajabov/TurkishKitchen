@@ -54,16 +54,19 @@ class MealTabViewController: UIViewController {
     }
     
     @objc func shareClicked(){
-        dismiss(animated: true)
+//        dismiss(animated: true)
+        let vc = UIActivityViewController(activityItems: ["https://apps.apple.com/app/apple-store/id1516163645"], applicationActivities: nil)
+        vc.popoverPresentationController?.sourceView = self.view
+        self.present(vc, animated: true, completion: nil)
     }
     
     func createTopView(){
         view.addSubview(topView)
-        topView.backgroundColor = UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
+        topView.backgroundColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00) // UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
         topView.snp.makeConstraints({ make in
             make.top.equalToSuperview()
             make.left.right.equalToSuperview()
-            make.height.equalTo(90)
+            make.height.equalTo(60)
         })
         
         topView.addSubview(backBtn)
@@ -76,7 +79,7 @@ class MealTabViewController: UIViewController {
         backBtn.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(20)
-            make.height.width.equalTo(25)
+            make.height.width.equalTo(21)
         })
         
         topView.addSubview(shareBtn)
@@ -89,7 +92,7 @@ class MealTabViewController: UIViewController {
         shareBtn.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.right.equalTo(-20)
-            make.height.width.equalTo(25)
+            make.height.width.equalTo(21)
         })
         
         topView.addSubview(titleLbl)
@@ -97,7 +100,7 @@ class MealTabViewController: UIViewController {
         titleLbl.textColor = .white
         titleLbl.textAlignment = .center
         titleLbl.text = items[index].name
-        titleLbl.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        titleLbl.font = UIFont.systemFont(ofSize: 17, weight: .bold)
         titleLbl.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(backBtn.snp.right).offset(5)
@@ -165,7 +168,7 @@ extension MealTabViewController: UITableViewDelegate, UITableViewDataSource  {
     }
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
-        view.tintColor = UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00)
+        view.tintColor = .orange // UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00)
         let header = view as! UITableViewHeaderFooterView
         header.textLabel?.textColor = UIColor.white
     }

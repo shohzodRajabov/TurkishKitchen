@@ -17,7 +17,7 @@ class MenuCell: UITableViewCell {
         contentView.backgroundColor = .black
         
         addSubview(icon)
-        icon.tintColor = UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
+        icon.tintColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00)  // UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
         icon.snp.makeConstraints { make in
             make.left.equalTo(10)
             make.centerY.equalToSuperview()

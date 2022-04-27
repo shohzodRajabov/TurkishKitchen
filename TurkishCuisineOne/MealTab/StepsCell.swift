@@ -20,11 +20,11 @@ class StepsCell: UITableViewCell {
         
         contentView.addSubview(numLbl)
         numLbl.backgroundColor = .clear
-        numLbl.textColor = UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00)
+        numLbl.textColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00) // UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00)
 //        numLbl.text = "1"
         numLbl.font = UIFont.systemFont(ofSize: 14, weight: .bold)
         numLbl.textAlignment = .center
-        numLbl.layer.borderColor = UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00).cgColor
+        numLbl.layer.borderColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00).cgColor // UIColor(red: 0.87, green: 0.4, blue: 0.6, alpha: 1.00).cgColor
         numLbl.layer.borderWidth = 2.4
         numLbl.layer.cornerRadius = 12.5
         

@@ -116,11 +116,11 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout {
     
     func createTopView(){
         view.addSubview(topView)
-        topView.backgroundColor = UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
+        topView.backgroundColor = UIColor(red: 248/255, green: 60/255, blue: 10/255, alpha: 1.00) // UIColor(red: 0.77, green: 0.4, blue: 0.6, alpha: 1.00)
         topView.snp.makeConstraints({ make in
             make.top.equalToSuperview()
             make.left.right.equalToSuperview()
-            make.height.equalTo(80)
+            make.height.equalTo(60)
         })
         topView.addSubview(menuBtn)
         menuBtn.backgroundColor = .clear
@@ -132,14 +132,14 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout {
         menuBtn.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(20)
-            make.height.width.equalTo(25)
+            make.height.width.equalTo(21)
         })
         topView.addSubview(titleLbl)
         titleLbl.backgroundColor = .clear
         titleLbl.textColor = .white
         titleLbl.textAlignment = .center
         titleLbl.text = "Рецепты турецкой кухни"
-        titleLbl.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        titleLbl.font = UIFont.systemFont(ofSize: 17, weight: .bold)
         titleLbl.snp.makeConstraints({ make in
             make.bottom.equalTo(-10)
             make.left.equalTo(menuBtn.snp.right).offset(5)
