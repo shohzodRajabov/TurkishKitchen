@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FE7465624C6634D091063C4 /* Pods_TurkishCuisineOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6BE37208F14B41D71888B5 /* Pods_TurkishCuisineOne.framework */; };
+		E725E1702758C3A90006A90B /* turk_cuisine.json in Resources */ = {isa = PBXBuildFile; fileRef = E725E16F2758C3A90006A90B /* turk_cuisine.json */; };
+		E725E1762759E0080006A90B /* MealTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E725E1752759E0080006A90B /* MealTabViewController.swift */; };
+		E72DB55D2757BC9100DC1C51 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DB55C2757BC9100DC1C51 /* MenuTableViewController.swift */; };
+		E72DB55F2757BF5700DC1C51 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DB55E2757BF5700DC1C51 /* MenuCell.swift */; };
+		E72DB5612758116200DC1C51 /* MealsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DB5602758116200DC1C51 /* MealsCell.swift */; };
+		E73A81A8275E4E6F00F58BB5 /* MealsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73A81A7275E4E6F00F58BB5 /* MealsSettings.swift */; };
+		E75D31F2275A3A41003B5BE5 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D31F1275A3A41003B5BE5 /* MealCell.swift */; };
+		E75D31F4275A3A6E003B5BE5 /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D31F3275A3A6E003B5BE5 /* IngredientsCell.swift */; };
+		E75D31F6275A3AA2003B5BE5 /* StepsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D31F5275A3AA2003B5BE5 /* StepsCell.swift */; };
+		E75D31F8275A6D2D003B5BE5 /* StepsImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D31F7275A6D2C003B5BE5 /* StepsImageCell.swift */; };
+		E75D31FA275A7658003B5BE5 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75D31F9275A7658003B5BE5 /* Source.swift */; };
+		E79EBEEE27576C6F00A0F7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EBEED27576C6F00A0F7ED /* AppDelegate.swift */; };
+		E79EBEF227576C6F00A0F7ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79EBEF127576C6F00A0F7ED /* ViewController.swift */; };
+		E79EBEF527576C6F00A0F7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79EBEF327576C6F00A0F7ED /* Main.storyboard */; };
+		E79EBEF727576C7100A0F7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79EBEF627576C7100A0F7ED /* Assets.xcassets */; };
+		E79EBEFA27576C7100A0F7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79EBEF827576C7100A0F7ED /* LaunchScreen.storyboard */; };
+		E7A549C7275CB093003C2485 /* SellectedMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A549C6275CB093003C2485 /* SellectedMealsViewController.swift */; };
+		E7A549C9275CB0EE003C2485 /* SelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A549C8275CB0EE003C2485 /* SelectedCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220FAC8C6B9CD751169288A6 /* Pods-TurkishCuisineOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishCuisineOne.debug.xcconfig"; path = "Target Support Files/Pods-TurkishCuisineOne/Pods-TurkishCuisineOne.debug.xcconfig"; sourceTree = "<group>"; };
+		2C081211162ADF95E5BFE99E /* Pods-TurkishCuisineOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishCuisineOne.release.xcconfig"; path = "Target Support Files/Pods-TurkishCuisineOne/Pods-TurkishCuisineOne.release.xcconfig"; sourceTree = "<group>"; };
+		E725E16F2758C3A90006A90B /* turk_cuisine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = turk_cuisine.json; sourceTree = "<group>"; };
+		E725E1752759E0080006A90B /* MealTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTabViewController.swift; sourceTree = "<group>"; };
+		E72DB55C2757BC9100DC1C51 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		E72DB55E2757BF5700DC1C51 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		E72DB5602758116200DC1C51 /* MealsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsCell.swift; sourceTree = "<group>"; };
+		E73A81A7275E4E6F00F58BB5 /* MealsSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSettings.swift; sourceTree = "<group>"; };
+		E75D31F1275A3A41003B5BE5 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		E75D31F3275A3A6E003B5BE5 /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
+		E75D31F5275A3AA2003B5BE5 /* StepsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsCell.swift; sourceTree = "<group>"; };
+		E75D31F7275A6D2C003B5BE5 /* StepsImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsImageCell.swift; sourceTree = "<group>"; };
+		E75D31F9275A7658003B5BE5 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		E79EBEEA27576C6F00A0F7ED /* TurkishCuisineOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkishCuisineOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79EBEED27576C6F00A0F7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E79EBEF127576C6F00A0F7ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E79EBEF427576C6F00A0F7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79EBEF627576C7100A0F7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79EBEF927576C7100A0F7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79EBEFB27576C7100A0F7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A549C6275CB093003C2485 /* SellectedMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellectedMealsViewController.swift; sourceTree = "<group>"; };
+		E7A549C8275CB0EE003C2485 /* SelectedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCell.swift; sourceTree = "<group>"; };
+		FD6BE37208F14B41D71888B5 /* Pods_TurkishCuisineOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishCuisineOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79EBEE727576C6F00A0F7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7465624C6634D091063C4 /* Pods_TurkishCuisineOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454A00B4AC0C5B1429D9A5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				220FAC8C6B9CD751169288A6 /* Pods-TurkishCuisineOne.debug.xcconfig */,
+				2C081211162ADF95E5BFE99E /* Pods-TurkishCuisineOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E725E16E2758C30D0006A90B /* JsonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E725E16F2758C3A90006A90B /* turk_cuisine.json */,
+			);
+			path = JsonFiles;
+			sourceTree = "<group>";
+		};
+		E725E1712759DF220006A90B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E72DB55C2757BC9100DC1C51 /* MenuTableViewController.swift */,
+				E72DB55E2757BF5700DC1C51 /* MenuCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E725E1722759DF380006A90B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E79EBEF127576C6F00A0F7ED /* ViewController.swift */,
+				E72DB5602758116200DC1C51 /* MealsCell.swift */,
+				E75D31F9275A7658003B5BE5 /* Source.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E725E1732759DF590006A90B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E79EBEF827576C7100A0F7ED /* LaunchScreen.storyboard */,
+				E79EBEED27576C6F00A0F7ED /* AppDelegate.swift */,
+				E79EBEF327576C6F00A0F7ED /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E725E1742759DFA90006A90B /* MealTab */ = {
+			isa = PBXGroup;
+			children = (
+				E725E1752759E0080006A90B /* MealTabViewController.swift */,
+				E75D31F1275A3A41003B5BE5 /* MealCell.swift */,
+				E75D31F3275A3A6E003B5BE5 /* IngredientsCell.swift */,
+				E75D31F5275A3AA2003B5BE5 /* StepsCell.swift */,
+				E75D31F7275A6D2C003B5BE5 /* StepsImageCell.swift */,
+			);
+			path = MealTab;
+			sourceTree = "<group>";
+		};
+		E73A81A6275E4E2200F58BB5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E73A81A7275E4E6F00F58BB5 /* MealsSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E79EBEE127576C6F00A0F7ED = {
+			isa = PBXGroup;
+			children = (
+				E79EBEEC27576C6F00A0F7ED /* TurkishCuisineOne */,
+				E79EBEEB27576C6F00A0F7ED /* Products */,
+				454A00B4AC0C5B1429D9A5E5 /* Pods */,
+				F4950D53FA2A1F12D740543D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E79EBEEB27576C6F00A0F7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79EBEEA27576C6F00A0F7ED /* TurkishCuisineOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79EBEEC27576C6F00A0F7ED /* TurkishCuisineOne */ = {
+			isa = PBXGroup;
+			children = (
+				E73A81A6275E4E2200F58BB5 /* Settings */,
+				E7A549C5275CB056003C2485 /* Selected */,
+				E725E1742759DFA90006A90B /* MealTab */,
+				E725E1732759DF590006A90B /* Resources */,
+				E725E1722759DF380006A90B /* Home */,
+				E725E1712759DF220006A90B /* Menu */,
+				E725E16E2758C30D0006A90B /* JsonFiles */,
+				E79EBEF627576C7100A0F7ED /* Assets.xcassets */,
+				E79EBEFB27576C7100A0F7ED /* Info.plist */,
+			);
+			path = TurkishCuisineOne;
+			sourceTree = "<group>";
+		};
+		E7A549C5275CB056003C2485 /* Selected */ = {
+			isa = PBXGroup;
+			children = (
+				E7A549C6275CB093003C2485 /* SellectedMealsViewController.swift */,
+				E7A549C8275CB0EE003C2485 /* SelectedCell.swift */,
+			);
+			path = Selected;
+			sourceTree = "<group>";
+		};
+		F4950D53FA2A1F12D740543D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BE37208F14B41D71888B5 /* Pods_TurkishCuisineOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79EBEE927576C6F00A0F7ED /* TurkishCuisineOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79EBEFE27576C7100A0F7ED /* Build configuration list for PBXNativeTarget "TurkishCuisineOne" */;
+			buildPhases = (
+				DF169624653BE7472406ABAC /* [CP] Check Pods Manifest.lock */,
+				E79EBEE627576C6F00A0F7ED /* Sources */,
+				E79EBEE727576C6F00A0F7ED /* Frameworks */,
+				E79EBEE827576C6F00A0F7ED /* Resources */,
+				968C6365E19C4AE70DE6531C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkishCuisineOne;
+			productName = TurkishCuisineOne;
+			productReference = E79EBEEA27576C6F00A0F7ED /* TurkishCuisineOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79EBEE227576C6F00A0F7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E79EBEE927576C6F00A0F7ED = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E79EBEE527576C6F00A0F7ED /* Build configuration list for PBXProject "TurkishCuisineOne" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79EBEE127576C6F00A0F7ED;
+			productRefGroup = E79EBEEB27576C6F00A0F7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79EBEE927576C6F00A0F7ED /* TurkishCuisineOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79EBEE827576C6F00A0F7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79EBEFA27576C7100A0F7ED /* LaunchScreen.storyboard in Resources */,
+				E79EBEF727576C7100A0F7ED /* Assets.xcassets in Resources */,
+				E725E1702758C3A90006A90B /* turk_cuisine.json in Resources */,
+				E79EBEF527576C6F00A0F7ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		968C6365E19C4AE70DE6531C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishCuisineOne/Pods-TurkishCuisineOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishCuisineOne/Pods-TurkishCuisineOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurkishCuisineOne/Pods-TurkishCuisineOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF169624653BE7472406ABAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishCuisineOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79EBEE627576C6F00A0F7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75D31F2275A3A41003B5BE5 /* MealCell.swift in Sources */,
+				E75D31F4275A3A6E003B5BE5 /* IngredientsCell.swift in Sources */,
+				E79EBEF227576C6F00A0F7ED /* ViewController.swift in Sources */,
+				E72DB5612758116200DC1C51 /* MealsCell.swift in Sources */,
+				E73A81A8275E4E6F00F58BB5 /* MealsSettings.swift in Sources */,
+				E79EBEEE27576C6F00A0F7ED /* AppDelegate.swift in Sources */,
+				E7A549C9275CB0EE003C2485 /* SelectedCell.swift in Sources */,
+				E7A549C7275CB093003C2485 /* SellectedMealsViewController.swift in Sources */,
+				E725E1762759E0080006A90B /* MealTabViewController.swift in Sources */,
+				E75D31F6275A3AA2003B5BE5 /* StepsCell.swift in Sources */,
+				E75D31FA275A7658003B5BE5 /* Source.swift in Sources */,
+				E72DB55D2757BC9100DC1C51 /* MenuTableViewController.swift in Sources */,
+				E72DB55F2757BF5700DC1C51 /* MenuCell.swift in Sources */,
+				E75D31F8275A6D2D003B5BE5 /* StepsImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E79EBEF327576C6F00A0F7ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79EBEF427576C6F00A0F7ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79EBEF827576C7100A0F7ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79EBEF927576C7100A0F7ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79EBEFC27576C7100A0F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79EBEFD27576C7100A0F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79EBEFF27576C7100A0F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220FAC8C6B9CD751169288A6 /* Pods-TurkishCuisineOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ38KS8U5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkishCuisineOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocoBrothers.projects.TurkishCuisineOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E79EBF0027576C7100A0F7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C081211162ADF95E5BFE99E /* Pods-TurkishCuisineOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ38KS8U5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkishCuisineOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocoBrothers.projects.TurkishCuisineOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79EBEE527576C6F00A0F7ED /* Build configuration list for PBXProject "TurkishCuisineOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79EBEFC27576C7100A0F7ED /* Debug */,
+				E79EBEFD27576C7100A0F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79EBEFE27576C7100A0F7ED /* Build configuration list for PBXNativeTarget "TurkishCuisineOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79EBEFF27576C7100A0F7ED /* Debug */,
+				E79EBF0027576C7100A0F7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79EBEE227576C6F00A0F7ED /* Project object */;
+}
